@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* eta use na korle float kora section  er porer section gulo upore uthe jay.. youtube dekhe sikhesi eta */
+
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/* Header Css */
+.header-menu{
+    /* margin-bottom: 40px; */
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-menu ul{
+    text-align: right;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: block;
+    text-decoration:none;
+    color: #3C3C3C;
+    padding: 0px 20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 70px;
+}
+
+/* Details part one left css */
+.details-p1{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.p1-left{
+    width: 48%;
+    float: left;
+    margin-top: 100px;
+}
+
+.p1-left h1{
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    color:#363958;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 18px;
+    line-height: 90px;
+}
+.p1-left span{
+    color: #FF8367;
+    
+}
+.p1-left p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #3e3e3e;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.btn-common{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    padding:20px 55px;
+    border-radius:6px;
+    display: inline-block;
+}
+
+/* Details part one right css */
+
+.details-p1{
+    
+}
+.p1-right{
+    width: 48%;
+    float: right;
+}
+.p1-right img{
+    width:80%;
+    margin-top: -40px;
+}
+/* Details part two left */
+.p2-left{
+    width: 48%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.p2-left img{
+    width: 80%;
+    margin-top: -115px;
+}
+/* Details part two right */
+.details-p2{
+    width: 1200px;
+    margin: 0 auto;
+}
+.p2-right{
+    width:40%;
+    float: right;
+    margin-top: 55px;
+}
+.p2-right h1{
+    font-size: 48px;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.p2-right p{
+    line-height: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.btn-cv{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    padding:20px 30px;
+    border-radius:6px;
+    display: inline-block;
+}
+.p2-right a i{
+    margin-right: 2px;
+}
+/* Project section */
+.project-sec{
+    background:#e5e5e563;
+    padding-top: 100px;
+    min-height: 650px;
+}
+.project-sec h1{
+    font-size: 48px;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    clear: both;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.project-sec span{
+    color:#F46060;
+}
+/* Project archive */
+.project-archive{
+    width: 1200px;
+    margin: 0 auto;
+}
+.project{
+
+    width:29%;
+    float: left;
+    margin: 10px;
+    background-color: white;
+    padding:16px;
+    border-radius: 20px;
+    transition: .4s;
+    box-shadow:  0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);;
+}
+.project:hover{
+    box-shadow:  0px 6.5812px 19.7436px rgba(0, 0, 0, 0.253);;
+}
+.project img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.project h2{
+    color: #363958;
+    margin-bottom: 15px;
+}
+.project p{
+    color:#6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+/* Contact section css */
+.lets-chat-sec{
+    width: 930px;
+    margin: 100px auto;
+    height: 60px;
+    /* margin-top: 60px; */
+    padding:90px 20px;
+    background: url(/shapes/shape\ 1.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lets-chat-sec h1{
+    float: left;
+    line-height: 75px;
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 50px;
+}
+.lets-chat-sec a{
+    float: right;
+}
+.btn-chats{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    padding:20px 35px;
+    border-radius:6px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+/* Footer CSS */
+.footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer h1{
+    color: #696871;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 15px;
+}
+.footer h2{
+    color: #363958;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.icon img{
+    width: 40px;
+    padding:12px 12px;
+    
+}
